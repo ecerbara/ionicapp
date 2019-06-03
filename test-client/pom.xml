@@ -6,7 +6,7 @@
 	<groupId>it.mef.common.test</groupId>
 	<artifactId>test-client</artifactId>
 	<version>0.0.1</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>test-client</name>
 	<description></description>
