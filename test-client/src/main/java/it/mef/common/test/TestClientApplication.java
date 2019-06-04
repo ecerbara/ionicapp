@@ -1,14 +1,18 @@
 package it.mef.common.test;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+@Configuration
+@ComponentScan
+@EnableAutoConfiguration
 @SpringBootApplication
-@EnableSwagger2
 public class TestClientApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
